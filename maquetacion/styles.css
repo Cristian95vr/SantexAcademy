@@ -1,0 +1,144 @@
+html{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image:url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+#header{
+  background-color: white;
+  position: sticky;
+  top: 0;
+ 
+}
+p {
+    margin-right: 20px;
+   
+}
+h1 {
+    margin: 0px 280px;
+    text-align: center;
+}
+#introduction{
+    padding: 90px 30px;
+}
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 0px 24px;
+    height: 38px;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+
+}
+#impacto{
+    background-color: #201B24;
+    margin-bottom: 50%;
+
+}
+#impacto-dentro{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 20px;
+    padding: 100px 10px 80px 10px ;
+    }
+#impacto-text{
+    color: white;
+    width: 250px;
+    
+    padding-right: 60px;
+}
+#impacto-text>h2{
+    font-size: 30px;
+}
+#impacto-text>p{
+    font-size: 14px;
+    font-weight: inherit;
+}
+#impacto-content{
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+.impacto-span{
+    font-size: 40px;
+    font-weight: 700;
+}
+.impacto-spanM{
+font-size: 30px;
+color: #6B53F0;
+
+}
+.impacto-caja{
+    padding: 8px;
+}
+.impacto-caja>div{
+    font-size: 14px;
+    color: #8c968c;
+}
+.btn-sumate{
+    background-color: white;
+    color: #6B53F0;
+    border: 2px solid #6B53F0;
+    border-radius: 30px;
+    padding: 0px 24px;
+    height: 38px;
+}
+#header-right>p:hover{
+    color: #6B53F0;
+    cursor: pointer;
+}
+#header-right>button:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+.btn-contactanos:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+.btn-sumate:hover{
+    background-color: #6B53F0;
+    color: white;
+    cursor: pointer;
+}
+.section{
+    background-color: white;
+    
+}
+.bloque{
+    display: flex;
+    margin:10px 7px
+}
+.bloque-imagen1{
+    display: flex;
+    width: 1000px;
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01-800x533.jpg");
+    background-size: cover;
+}
+.bloque-imagen2{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/robotica-educativa-07-800x533.jpg");
+}
+.bloque-imagen3{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/estafas-virtuales-04-800x603.jpg");
+}
+.bloque-imagen4{
+    display: flex;
+    width: 1000px;
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/seguridad-informatica-para-infancias-800x531.jpg");
+}

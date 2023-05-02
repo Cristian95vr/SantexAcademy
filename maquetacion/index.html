@@ -5,31 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Link css -->
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+   
     <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
         <div id="header-left">
             <img src="logo.svg">
@@ -43,14 +30,123 @@
             <button class="redondo">Sumate +</button>
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+    <div id="introduction" style="background-color: white;">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button class="redondo btn-contactanos">Contactanos -></button>
+            <button class="btn-sumate" style="margin-left: 14px;">Sumate +</button>
         </div>
     </div>
+    <div id="impacto">
+        <div id="impacto-dentro">
+            <div id="impacto-text">
+                <h2>. Impacto</h2>
+                <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+            </div>
+            <div id="impacto-content">
+                <div class="impacto-caja">
+                    <span class="impacto-span">
+                        58
+                    </span>
+                    <div>
+                     Localidades
+                    </div>
+                    </div>
+                    
+                <div class="impacto-caja">
+                    <span class="impacto-spanM">+</span>
+                    <span class="impacto-span">50</span>
+                    <div>
+                        Mentores
+                    </div>
+                </div>
+                <div class="impacto-caja">
+                    <span class="impacto-span">301</span>
+                    <div>Participantes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="section">
+    <div class="subtitulo">
+        <h2>.Programas</h2>
+    </div>
+    <div class="bloque">
+        <div class="bloque-imagen1">
+            
+        </div>
+        <div class="bloque-text">
+            <div class="bloque-text-imagen">
+                <img src="https://technologywithpurpose.org/wp-content/uploads/2022/10/xacademy.svg" alt="xacademy">
+            </div>
+            <div class="bloque-text-texto">
+                <p>xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+            </div>
+            <div class="bloque-text-btn">
+                <a href="#">Más info -></a>
+            </div>
+        </div>
+    </div>
+    <div class="bloque">
+        <div class="bloque-text">
+            <h3 class="subsubtitulo">
+                Robótica educativa: la tecnología del futuro
+            </h3>
+            <div class="bloque-text-texto">
+                <p>
+                Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.
+                </p>
+            </div>
+            <div class="bloque-text-btn">
+                <a href="#">Más info -></a>
+            </div>
+        </div>
+        <div class="bloque-imagen2">
+            
+        </div>
+    </div>
+    <div class="subtitulo">
+        <h2>.Capacitaciones</h2>
+    </div>
+    <div class="bloque">
+        <div class="bloque-imagen3">
+        
+        </div>
+        <div class="bloque-text">
+                <h3 class="subsubtitulo">
+                    Estafas virtuales: ¿cómo protegernos?
+                </h3>
+            </div>
+            <div class="bloque-text-texto">
+                <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+            </div>
+            <div class="bloque-text-btn">
+                <a href="#">Más info -></a>
+            </div>
+        </div>
+        <div class="bloque">
+            <div class="bloque-text">
+                <h3 class="subsubtitulo">
+                    Seguridad informática para infancias
+                </h3>
+                <div class="bloque-text-texto">
+                    <p>
+                        ¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.
+                    </p>
+                </div>
+                <div class="bloque-text-btn">
+                    <a href="#">Más info -></a>
+                </div>
+            </div>
+            <div class="bloque-imagen4">
+                
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
 </body>
 </html>

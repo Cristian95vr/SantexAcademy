@@ -40,7 +40,7 @@ div#introduction-actions {
 }
 #impacto{
     background-color: #201B24;
-    margin-bottom: 50%;
+    margin-bottom: 35%;
 
 }
 #impacto-dentro{
@@ -113,32 +113,166 @@ cursor: pointer;
 }
 .section{
     background-color: white;
-    
+    padding: 0px 20px 70px 20px;
+}
+.subtitulo{
+    font-size: 20px;
+    padding-top: 90px;
 }
 .bloque{
+    height: 390px;
     display: flex;
-    margin:10px 7px
+    
 }
 .bloque-imagen1{
-    display: flex;
-    width: 1000px;
+    width: 50%;
     background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/xacademy-01-800x533.jpg");
     background-size: cover;
+    background-position: center;
+    border-radius: 0px 50px 50px;
+    margin-bottom: 20px;
 }
 .bloque-imagen2{
-    display: flex;
-    width: 1000px;
-    height: 250px;
-background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/robotica-educativa-07-800x533.jpg");
+    width: 50%;
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/robotica-educativa-07-800x533.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 50px 0px;
+    margin-bottom: 20px;
 }
 .bloque-imagen3{
-    display: flex;
-    width: 1000px;
-    height: 250px;
+    width: 50%;
     background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/estafas-virtuales-04-800x603.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 50px 50px;
+    margin-bottom: 20px;
 }
 .bloque-imagen4{
-    display: flex;
-    width: 1000px;
+    width: 50%;
     background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/seguridad-informatica-para-infancias-800x531.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 50px 0px;
+    
+   
 }
+.bloque-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 18px;
+}
+.bloque-text-texto>p{
+    font-size: 14px;
+}
+.bloque-text-imagen>img{
+    width: 200px;
+    height: auto;
+}
+.bloque-text-btn>button{
+    font-size: 12px;
+    font-weight:500;
+}
+.bloque-text-btn>button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.caja-text{
+    padding: 0px 50px;
+    
+}
+.subsubtitulo{
+    font-size: 22px;
+    font-weight: bold;
+}
+.section-equipo{
+    background-color: #f4f4f5;
+}
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: flex-start;
+   padding-bottom: 70px;
+    }
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.card-foto{
+    background-color:bisque;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-texto{
+    text-align: center;
+    padding-top: 15px;
+    }
+.card-texto>h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.card-texto>span{
+    font-size: 15px;
+    color: #8C969C;
+}
+.section-margen{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.section-alianza{
+    background-color: white;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+footer{
+    background-color: #201B24;
+    color: #D9D9D9;
+    display: flex;
+    padding: 60px 20px 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+    
+.footer-p>p{
+   width: 200px;
+   height: 70px;
+   font-size: 12px;
+    font-weight: 400px;
+    display: flex;
+    margin: 0px 60px;
+}
+.footer-p2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 30px;
+    justify-content: flex-start;
+}
+.footer-p3{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+.footer-p4{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+
